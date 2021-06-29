@@ -4,20 +4,30 @@
 
 Running formula.py to generate 20k formula images
 
-Then, we can directly run main.py or follow the following 3 steps:
+### Step 2: Generate document data:
+*Optional* You can change config to generate data at configs/page.yaml. It is advised to change number of image to generate in the first run.
 
-#### Step 2: Changing number of images to generate at configs/page.yaml
+All text components are aranged in columns
+```
+python columns_layout.py --config_file configs/page.yaml
+```
+Text components are aranged freely
+```
+python flexible_layout.py --config_file configs/page.yaml
+```
 
-#### Step 3: Changing number of workers to be used at main.py
-
-#### Step 4: Run main.py
+Options for args argument
+```
+  -h, --help            show this help message and exit
+  -n NUM_CORE, --num_core NUM_CORE
+                        # cores are used for generation
+  -c CONFIG_FILE, --config_file CONFIG_FILE
+```
 
 Images would be saved at output/images.
 
 ## Visualization of the result:
-
-#### Step 1: Run data_manipulation/json_to_xml.py
-
-#### Step 2: Run data_manipulation/visualize.py
+ 
+```python data_manipulation/visualize.py```
 
 The result will be saved at assets/illustration
