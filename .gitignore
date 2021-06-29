@@ -1,0 +1,10 @@
+*.jpg
+*.json
+*.ttf
+*.txt
+*.svg
+*.jpeg
+output
+generator
+assets/formula
+assets/all_plot

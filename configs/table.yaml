@@ -1,0 +1,11 @@
+fontsize: '18-23'
+font_path: 'fonts'
+words: 'corpus/test.txt'
+period_prob: 0.15
+
+doc_image: 'C:/Users/sonnt72/Downloads/bg_img'
+type: 'table'
+
+col_spacing: 50
+spacing: 0.15
+
