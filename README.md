@@ -24,4 +24,4 @@ python data_manipulation/visualize.py
 Release soon
 
 ### Paper
-Release soon
+https://arxiv.org/abs/2106.15117
