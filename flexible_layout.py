@@ -8,13 +8,9 @@ from PIL import Image, ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 import numpy as np
 import json
-<<<<<<< HEAD
 import time
 import os
-=======
 import time,os
-
->>>>>>> 60067811e5ad5b88814b1ae5fbf1df85b0ff3524
 cnames = ['paragraph', 'table', 'figure', 'title', 'all', 'all']
 
 def get_boxes(height, width, left, top, \
