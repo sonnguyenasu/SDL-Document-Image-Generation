@@ -11,7 +11,7 @@ img_width: 1500
 col_spacing: '40-50'
 space_between: True
 
-background_path: '../resources_1/bg_img'
+background_path: 'assets/bg'
 plot_path: 'assets/all_plot'
 formula_path: 'assets/formula'
 type: 'page'
