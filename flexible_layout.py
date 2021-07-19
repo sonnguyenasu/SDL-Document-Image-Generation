@@ -9,7 +9,6 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 import numpy as np
 import json
 import time,os
-
 cnames = ['paragraph', 'table', 'figure', 'title', 'all', 'all']
 
 def get_boxes(height, width, left, top, \
